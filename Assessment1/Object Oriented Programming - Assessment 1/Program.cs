@@ -139,22 +139,87 @@ namespace TestForAssessment1
 
                 // This here is just a debug method
                 // Used this to see whether the values are assigned corretly
-                Console.WriteLine(parties[i].Name);
-                Console.WriteLine(parties[i].Votes);
-                foreach (string candidate in parties[i].Candidates)
-                {
-                    Console.WriteLine(candidate);
-                }
+                //Console.WriteLine(parties[i].Name);
+                //Console.WriteLine(parties[i].Votes);
+                //foreach (string candidate in parties[i].Candidates)
+                //{
+                //    Console.WriteLine(candidate);
+                //}
 
-                var one1 = new List<int> { 452321, 203989, 164682, 126138, 124630, 58198, 41117, 7641, 451 };
-                int maxone = one1.Max();
-                Console.WriteLine(one1[0]);
             }
+
+            // Parses the string into an int
+            // Gets the number of seats
+            int numOfSeats = int.Parse(partyLines[1]);
+
+            // Calls function
+            Calculator(parties, numOfSeats);
         }
 
-        static void Calculator()
+        static void Calculator(List<Party> parties, int numOfSeats)
         {
-            Console.WriteLine("Is it working?");
+            //Console.WriteLine("Calculator called");
+
+            // For loop
+            // Creates a loop that goes through the number of seats that were passed through
+            for (int i = 0; i < numOfSeats; i++)
+            {
+                // Creates a new List with each new iteration
+                List<int> partiesVotes = new List<int>();
+
+                // For loop
+                // Goes through every party in the list
+                for (int j = 0; j < parties.Count; ++j)
+                {
+                    // Adds the parties vote into the list
+                    partiesVotes.Add(parties[j].Votes);
+                }
+
+                // declares highestVote to max value among votes
+                int highestVote = partiesVotes.Max();
+
+                // This block was used to test against all the votes manually
+                //for(int k = 0; k < partiesVotes.Count; k++)
+                //{
+                //    Console.WriteLine(partiesVotes[k]);
+                //}
+                //Console.WriteLine("break");
+                
+                // For loop
+                // Loops for the length of parties
+                for(int l = 0; l < parties.Count; l++)
+                {
+                    // Compares party vote against the highestVote to find the winning party
+                    if(parties[l].Votes == highestVote)
+                    {
+                        // Adds a seat to the party
+                        // Divides the parties votes by the formula
+                        parties[l].Seats += 1;
+                        parties[l].Votes = parties[l].Votes / (1 + parties[l].Seats);
+                        break;
+                    }
+                }
+
+            }
+
+            // For loop
+            // Goes through the number of parties
+            for(int i = 0; i < parties.Count; i++)
+            {
+                // Checks which party has seats
+                if(parties[i].Seats != 0)
+                {
+                    // Displays the name of the party with seats
+                    Console.WriteLine(parties[i].Name);
+
+                    // Goes through the number of candidates
+                    for(int j = 0; j < parties[i].Seats; j++)
+                    {
+                        // Displays the candidates that were elected
+                        Console.WriteLine(parties[i].Candidates[j]);
+                    }
+                }
+            }
         }
     }
 }
