@@ -11,3 +11,16 @@ C:\Users\Durp\Desktop\C# Code\Object Oriented Programming - Assessment 1\Object 
 C:\Users\Durp\Desktop\C# Code\Object Oriented Programming - Assessment 1\Object Oriented Programming - Assessment 1\obj\Debug\netcoreapp3.1\Object Oriented Programming - Assessment 1.dll
 C:\Users\Durp\Desktop\C# Code\Object Oriented Programming - Assessment 1\Object Oriented Programming - Assessment 1\obj\Debug\netcoreapp3.1\Object Oriented Programming - Assessment 1.pdb
 C:\Users\Durp\Desktop\C# Code\Object Oriented Programming - Assessment 1\Object Oriented Programming - Assessment 1\obj\Debug\netcoreapp3.1\Object Oriented Programming - Assessment 1.genruntimeconfig.cache
+C:\Users\miner\OneDrive\Desktop\OOPvote\Assessment1\Object Oriented Programming - Assessment 1\bin\Debug\netcoreapp3.1\Object Oriented Programming - Assessment 1.exe
+C:\Users\miner\OneDrive\Desktop\OOPvote\Assessment1\Object Oriented Programming - Assessment 1\bin\Debug\netcoreapp3.1\Object Oriented Programming - Assessment 1.deps.json
+C:\Users\miner\OneDrive\Desktop\OOPvote\Assessment1\Object Oriented Programming - Assessment 1\bin\Debug\netcoreapp3.1\Object Oriented Programming - Assessment 1.runtimeconfig.json
+C:\Users\miner\OneDrive\Desktop\OOPvote\Assessment1\Object Oriented Programming - Assessment 1\bin\Debug\netcoreapp3.1\Object Oriented Programming - Assessment 1.runtimeconfig.dev.json
+C:\Users\miner\OneDrive\Desktop\OOPvote\Assessment1\Object Oriented Programming - Assessment 1\bin\Debug\netcoreapp3.1\Object Oriented Programming - Assessment 1.dll
+C:\Users\miner\OneDrive\Desktop\OOPvote\Assessment1\Object Oriented Programming - Assessment 1\bin\Debug\netcoreapp3.1\Object Oriented Programming - Assessment 1.pdb
+C:\Users\miner\OneDrive\Desktop\OOPvote\Assessment1\Object Oriented Programming - Assessment 1\obj\Debug\netcoreapp3.1\Object Oriented Programming - Assessment 1.csprojAssemblyReference.cache
+C:\Users\miner\OneDrive\Desktop\OOPvote\Assessment1\Object Oriented Programming - Assessment 1\obj\Debug\netcoreapp3.1\Object Oriented Programming - Assessment 1.AssemblyInfoInputs.cache
+C:\Users\miner\OneDrive\Desktop\OOPvote\Assessment1\Object Oriented Programming - Assessment 1\obj\Debug\netcoreapp3.1\Object Oriented Programming - Assessment 1.AssemblyInfo.cs
+C:\Users\miner\OneDrive\Desktop\OOPvote\Assessment1\Object Oriented Programming - Assessment 1\obj\Debug\netcoreapp3.1\Object Oriented Programming - Assessment 1.csproj.CoreCompileInputs.cache
+C:\Users\miner\OneDrive\Desktop\OOPvote\Assessment1\Object Oriented Programming - Assessment 1\obj\Debug\netcoreapp3.1\Object Oriented Programming - Assessment 1.dll
+C:\Users\miner\OneDrive\Desktop\OOPvote\Assessment1\Object Oriented Programming - Assessment 1\obj\Debug\netcoreapp3.1\Object Oriented Programming - Assessment 1.pdb
+C:\Users\miner\OneDrive\Desktop\OOPvote\Assessment1\Object Oriented Programming - Assessment 1\obj\Debug\netcoreapp3.1\Object Oriented Programming - Assessment 1.genruntimeconfig.cache

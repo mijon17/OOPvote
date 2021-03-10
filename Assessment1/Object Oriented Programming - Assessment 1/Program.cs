@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
 namespace TestForAssessment1
 {
@@ -144,6 +145,10 @@ namespace TestForAssessment1
                 {
                     Console.WriteLine(candidate);
                 }
+
+                var one1 = new List<int> { 452321, 203989, 164682, 126138, 124630, 58198, 41117, 7641, 451 };
+                int maxone = one1.Max();
+                Console.WriteLine(one1[0]);
             }
         }
 
