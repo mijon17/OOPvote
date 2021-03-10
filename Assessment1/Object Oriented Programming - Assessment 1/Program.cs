@@ -146,5 +146,10 @@ namespace TestForAssessment1
                 }
             }
         }
+
+        static void Calculator()
+        {
+            Console.WriteLine("Is it working?");
+        }
     }
 }
